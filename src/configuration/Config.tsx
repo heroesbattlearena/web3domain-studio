@@ -24,7 +24,7 @@ export const DOMAIN_IMAGE_URL = 'https://w3d.name/api/nft/yak.jpg' //Image path 
 export const DOMAIN_NETWORK_CHAIN = 137 //137 for polygon, 314 for filecoin, 80001 form mumbai
 export const DOMAIN_DESCRIPTION = 'My Domain description goes here....'
 export const DOMAIN_TYPE = "W3D" //W3D for polygon, FVM for Filecoin net
-export const DOMAIN_TITLE = ".HBA Domain Search" //Title above the search input field. 
+export const DOMAIN_TITLE = "WEB3 Domain Search" //Title above the search input field. 
 export const DOMAIN_PLACEHOLDER = "Search for a name" //Placeholder for search input field 
 
 export const ADMIN_WALLET = "0x2f325Af79B77518186862dA3775C9E432301C82a" //ETH wallet address 
