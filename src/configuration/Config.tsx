@@ -3,7 +3,7 @@ import { polygon} from '@wagmi/chains'
 
 export const SITE_NAME = 'Web3Domain Studio'
 export const SITE_DESCRIPTION = 'Web3 Domain Provider'
-export const SITE_URL = 'https://web3domain.org'
+export const SITE_URL = 'https://heroesbattlearena.online'
 
 export const THEME_INITIAL_COLOR = 'system'
 export const THEME_COLOR_SCHEME: ThemingProps['colorScheme'] = 'gray'
@@ -18,7 +18,7 @@ export const SOCIAL_DISCORD = ''
 export const NETWORKS = [polygon]; //polygon, filecoin, polygonMumbai
 export const NETWORK_ERROR = "Unsuppoted Blockchain Network or Domain Name !" //Change network name as required
 
-export const DOMAIN_TLD = 'yak' //primary domain name without dot (.)
+export const DOMAIN_TLD = 'hba' //primary domain name without dot (.)
 export const DOMAIN_PRICE_ETH = '0.1' //price should be equal to contract or higher 
 export const DOMAIN_IMAGE_URL = 'https://w3d.name/api/nft/yak.jpg' //Image path starts with ipfs:// or https://
 export const DOMAIN_NETWORK_CHAIN = 137 //137 for polygon, 314 for filecoin, 80001 form mumbai
