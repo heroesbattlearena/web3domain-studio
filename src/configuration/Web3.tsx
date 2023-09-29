@@ -8,8 +8,7 @@ import { alchemyProvider } from 'wagmi/providers/alchemy'
 import { NETWORKS, SITE_NAME } from '../configuration/Config'
 import React from 'react'
 
-let INFURA_KEY = process.env.NEXT_PUBLIC_INFURA_KEY || "";
-let ALCHEMY_KEY = process.env.NEXT_PUBLIC_ALCHEMY_KEY || "";
+let ALCHEMY_KEY = process.env.NEXT_PUBLIC_ALCHEMY_KEY || "ALHKEY";
 
 interface Props {
   children: ReactNode
