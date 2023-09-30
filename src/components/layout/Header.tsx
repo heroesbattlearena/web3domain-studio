@@ -256,14 +256,19 @@ const NAV_ITEMS: Array<NavItem> = [
     href: "/",
     children: [
       {
-        label: 'Link1',
-        subLabel: 'Link1 detail',
-        href: '#',
+        label: 'Heroes Battle Arena',
+        subLabel: 'back to heroesbattlearena.online',
+        href: 'https://heroesbattlearena.online',
       },
       {
-        label: 'Link2',
-        subLabel: 'Link2 detail',
-        href: '#',
+        label: 'HBA Opensea',
+        subLabel: 'check HBA collection on Opensea',
+        href: 'https://opensea.io/collection/heroesbattlearena',
+      },
+      {
+        label: 'HBA Avatar Opensea',
+        subLabel: 'check HBA Avatars on Opensea',
+        href: 'https://opensea.io/collection/heroesbattlearenaavatar',
       },
     ],
   },
